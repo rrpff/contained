@@ -1,20 +1,23 @@
 {
   "name": "contained",
   "version": "0.0.0",
-  "description": "Checks if values are contained in a comparison array. Regexps and functions are evaluated rather than compared.",
+  "description": "Checks if values are contained in a comparator array using deep equality. RegExps and functions are evaluated rather than compared.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
   "keywords": [
-    "indexof",
     "contain",
-    "comparison"
+    "comparison",
+    "array"
   ],
   "author": "Richard Foster <richard@rpf.me> (http://rpf.me/)",
   "license": "MIT",
   "dependencies": {
     "deep-equal": "^1.0.0",
     "is": "^3.0.1"
+  },
+  "devDependencies": {
+    "chai": "^2.1.2"
   }
 }

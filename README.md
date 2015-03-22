@@ -2,7 +2,7 @@
 
 Checks if values are contained in a comparator array using deep equality.
 
-RegExps and Functions are evaluated rather than compared.
+RegExps and functions are evaluated rather than compared.
 
 Comparators are run through until one evaluates `true`.
 
