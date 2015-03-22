@@ -1,6 +1,6 @@
 {
   "name": "contained",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Checks if values are contained in a comparator array using deep equality. RegExps and functions are evaluated rather than compared.",
   "main": "index.js",
   "scripts": {
